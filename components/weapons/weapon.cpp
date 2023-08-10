@@ -1,4 +1,4 @@
-#include "..\headers\weapons\weapon.hpp"
+#include "weapon.h"
 #include <cstdlib>
 
 int Weapon::UseForAttack(){

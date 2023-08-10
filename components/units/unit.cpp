@@ -1,5 +1,5 @@
-#include "..\headers\weapons\weapon.hpp"
-#include "..\headers\units\unit.hpp"
+#include "..\weapons\weapon.h"
+#include "unit.h"
 
 
 FightUnit::FightUnit(int healthPoints = 1){

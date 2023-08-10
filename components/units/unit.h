@@ -1,7 +1,7 @@
-#include "..\weapons\weapon.hpp"
+#include "..\weapons\weapon.h"
 
-#ifndef FIGHTUNIT
-#define FIGHTUNIT
+#ifndef FIGHTUNIT_H
+#define FIGHTUNIT_H
 
 class FightUnit {
     protected:

@@ -1,9 +1,9 @@
 #include <iostream>
-#include "headers\weapons\weapon.hpp"
-#include "headers\units\unit.hpp"
+#include "components\weapons\weapon.h"
+#include "components\units\unit.h"
 
 int main(){
-    FightUnit unit1(1);
+    FightUnit unit1;
     FightUnit unit2(2);
 
     while(true){
@@ -24,7 +24,5 @@ int main(){
             std::cout << "Unit 1 has won!" << std::endl;
             break;
         }
-        
-        
     }
 }
